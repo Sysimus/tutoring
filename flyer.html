@@ -3,72 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn Spanish with Isaiah</title>
+    <title>Spanish with Isaiah</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #FAF9F6; --text: #2C2C2C; --accent: #4B3621; --slate: #708090; }
+        body { margin: 0; background-color: var(--bg); color: var(--text); font-family: 'Lato', sans-serif; line-height: 1.6; }
+        .container { max-width: 600px; margin: 0 auto; padding: 40px 20px; text-align: center; }
+        h1, h2 { font-family: 'Playfair Display', serif; color: var(--accent); }
+        .price-badge { display: inline-block; background: var(--slate); color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; margin-bottom: 30px; }
+        .video-card { background: #fff; padding: 15px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 30px; }
+        .btn { display: block; padding: 18px; border-radius: 8px; font-weight: bold; text-decoration: none; margin-top: 20px; transition: 0.2s; }
+        .btn-primary { border: 2px solid var(--accent); color: var(--accent); }
+        .btn-primary:active { background: #EAE7E1; }
+        #about { text-align: left; margin-top: 60px; border-top: 1px solid #ddd; padding-top: 40px; }
+    </style>
 </head>
-<body style="margin: 0; padding: 0; background-color: #FAF9F6; color: #2C2C2C; font-family: 'Lato', sans-serif; line-height: 1.6;">
-
-    <div style="max-width: 600px; margin: 0 auto; padding: 40px 20px; text-align: center;">
-        
-        <header style="margin-bottom: 40px;">
-            <h1 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 10px; color: #4B3621;">
-                Learn Spanish with Isaiah
-            </h1>
-            <div style="display: inline-block; background-color: #708090; color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; font-size: 1.2rem;">
-                $20 USD / Hour
-            </div>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="font-size: 2.5rem; margin-bottom: 10px;">Learn Spanish with Isaiah</h1>
+            <div class="price-badge">$20 USD / Hour</div>
         </header>
-        
-        <section style="margin-bottom: 40px; background: #fff; padding: 15px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-    <a href="https://youtu.be/uYRqxMHSPPA" target="_blank" style="text-decoration: none; display: block; position: relative;">
-        <img src="tutoring.jpg" alt="Intro Video" style="width: 100%; border-radius: 8px; display: block;">
-        
-        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(75, 54, 33, 0.9); width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-            <div style="width: 0; height: 0; border-top: 15px solid transparent; border-bottom: 15px solid transparent; border-left: 25px solid #FAF9F6; margin-left: 5px;"></div>
-        </div>
-    </a>
-    <p style="font-size: 0.9rem; color: #666; margin-top: 12px; text-align: center; font-style: italic;">Click to watch my brief introduction</p>
-</section>
+
+        <section class="video-card">
+            <a href="https://youtu.be/uYRqxMHSPPA" target="_blank" style="text-decoration: none; display: block; position: relative; line-height: 0;">
+                <img src="tutoring.jpg" alt="Intro Video" style="width: 100%; border-radius: 8px; display: block;">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(75, 54, 33, 0.85); width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+                    <div style="width: 0; height: 0; border-top: 15px solid transparent; border-bottom: 15px solid transparent; border-left: 25px solid #FAF9F6; margin-left: 5px;"></div>
+                </div>
+            </a>
+            <p style="font-size: 0.9rem; color: #666; margin-top: 12px; font-style: italic;">Watch my brief introduction</p>
+        </section>
 
         <section style="margin-bottom: 40px;">
             <p style="font-size: 1.15rem; color: #444;">
-                A former high school Spanish teacher with <strong>5 years of experience</strong> and a background in <strong>second language acquisition</strong>.
+                Former high school Spanish and ESL teacher with 5 years of experience, BS in biology, Fulbright scholar, 120 hour TESOL certificate.
             </p>
-            <a href="#about" style="color: #708090; text-decoration: underline; font-weight: bold;">Learn more about my background</a>
         </section>
 
         <section style="background-color: #EAE7E1; padding: 25px; border-radius: 12px; margin-bottom: 40px;">
-            <h3 style="font-family: 'Playfair Display', serif; margin-top: 0;">Current Availability</h3>
+            <h3 style="font-family: 'Playfair Display', serif; margin-top: 0; color: var(--accent);">Current Availability</h3>
             <p style="margin-bottom: 0; font-size: 1.1rem;">
                 <strong>Mon – Fri:</strong> 10:00am – 7:00pm<br>
-                <span style="font-size: 0.9rem; color: #666;">(GMT-6 / Mountain Time)</span>
+                <span style="font-size: 0.9rem; color: #666;">(GMT-6 / CST)</span>
             </p>
         </section>
 
-        <section>
-            <!-- Calendly Widget -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/ijberry97/30min" style="min-width:320px;height:630px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            
-            <a href="https://wa.me/16155549569" style="display: block; border: 2px solid #4B3621; color: #4B3621; text-decoration: none; padding: 16px; border-radius: 8px; font-weight: bold; margin-top: 20px;">
-                Message on WhatsApp
-            </a>
-        </section>
+        <div class="calendly-inline-widget" data-url="https://calendly.com/ijberry97/30min" style="min-width:320px;height:630px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
-        <div id="about" style="margin-top: 80px; padding-top: 40px; border-top: 1px solid #ddd; text-align: left;">
-            <h2 style="font-family: 'Playfair Display', serif; color: #4B3621;">My Teaching Style</h2>
-            <p style="font-size: 1.1rem; color: #444;">
-                I think everyone has the potential to learn a language; it's my job to help draw it out. My style focuses on learning grammar and vocabulary in context, so that you feel comfortable using the language in real-world situations. 
-            </p>
-            <p style="font-size: 1.1rem; color: #444;">
-                Consistency is key, and I'll make sure the lessons are engaging and interesting, so you stay motivated to reach your goals.
-            </p>
-            <p style="font-size: 1rem; color: #666; margin-top: 20px;">
-                <em>Background: B.S. Biology (ACU), Fulbright Scholar (Nepal), TEFL Certified.</em>
-            </p>
+        <a href="https://wa.me/16155549569" class="btn btn-primary">Message on WhatsApp</a>
+        
+        <div id="about">
+            <h2>My Teaching Style</h2>
+            <p>I think everyone has the potential to learn a language; it's my job to help draw it out. My style focuses on learning grammar and vocabulary in context, so that you feel comfortable using the language in real-world situations.</p>
+            <p>Consistency is key, and I'll make sure the lessons are engaging and interesting, so you stay motivated to reach your goals.</p>
             <a href="#" style="font-size: 0.9rem; color: #999; text-decoration: none;">↑ Back to top</a>
         </div>
-
     </div>
+
+    <script>
+        // Auto-refresh: checks GitHub for updates every 2 hours
+        setInterval(async () => {
+            try {
+                const response = await fetch(window.location.href, { method: 'HEAD', cache: 'no-cache' });
+                const etag = response.headers.get('ETag');
+                const localEtag = localStorage.getItem('site-etag');
+                if (localEtag && etag && localEtag !== etag) location.reload();
+                localStorage.setItem('site-etag', etag);
+            } catch (e) { console.log("Check skipped."); }
+        }, 7200000);
+    </script>
 </body>
 </html>
