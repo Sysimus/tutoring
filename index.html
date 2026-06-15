@@ -3,100 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn Spanish with Isaiah | Professional Online Tutoring</title>
+    <title>Advanced English for Science & Biotech | Coach Isaiah</title>
     
-    <!-- Standard SEO Meta Tags -->
-    <meta name="description" content="Learn Spanish with Isaiah, a former high school teacher and Fulbright Scholar. Context-based, engaging private lessons for $20/hr. Book today.">
+    <meta name="description" content="Advanced English coaching for STEM, biotech, and medical researchers. / Clases de inglés avanzado para profesionales, científicos y preparación de publicaciones académicas. Propose your own rate.">
+    <meta name="keywords" content="English for science, inglés para científicos, Fulbright coaching, academic English editor, Clases de inglés CDMX, technical interview preparation">
     <meta name="robots" content="index, follow">
     
-    <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://sysimus.github.io/tutoring/">
-    <meta property="og:title" content="Spanish with Isaiah | $20/hr">
-    <meta property="og:description" content="Former high school Spanish teacher & Fulbright Scholar. Book a session now.">
+    <meta property="og:title" content="Advanced English for Science & Biotech">
+    <meta property="og:description" content="Advanced coaching with a Fulbright Scholar & Biologist. Name your own rate.">
     <meta property="og:image" content="https://sysimus.github.io/tutoring/tutoring.jpg">
     
-    <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="IlOniI3Fu_0lPMcrtXaoLbM2BrjbzEJxlXLzvj_Lx5U" />
     
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Spanish with Isaiah",
-  "url": "https://sysimus.github.io/tutoring/"
-}
-</script>
-    <style>
-        :root { --bg: #FAF9F6; --text: #2C2C2C; --accent: #4B3621; --slate: #708090; }
-        body { margin: 0; background-color: var(--bg); color: var(--text); font-family: 'Lato', sans-serif; line-height: 1.6; }
-        .container { max-width: 600px; margin: 0 auto; padding: 40px 20px; text-align: center; }
-        h1, h2, h3 { font-family: 'Playfair Display', serif; color: var(--accent); }
-        .price-badge { display: inline-block; background: var(--slate); color: white; padding: 10px 20px; border-radius: 50px; font-weight: bold; margin-bottom: 30px; }
-        .video-card { background: #fff; padding: 15px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 30px; }
-        .btn { display: block; padding: 18px; border-radius: 8px; font-weight: bold; text-decoration: none; margin-top: 20px; transition: 0.2s; }
-        .btn-primary { border: 2px solid var(--accent); color: var(--accent); }
-        .btn-primary:active { background: #EAE7E1; }
-        #about { text-align: left; margin-top: 60px; border-top: 1px solid #ddd; padding-top: 40px; }
-    </style>
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "English with Isaiah",
+      "url": "https://sysimus.github.io/tutoring/"
+    }
+    </script>
 </head>
-<body>
+<body lang="en">
+
+    <div class="lang-selector-wrap">
+        <select class="lang-select" onchange="switchLanguage(this.value)">
+            <option value="en">English</option>
+            <option value="es">Español (Spanish)</option>
+            <option value="ko">한국어 (Korean)</option>
+            <option value="ja">日本語 (Japanese)</option>
+            <option value="zh">中文 (Chinese)</option>
+            <option value="fr">Français (French)</option>
+            <option value="de">Deutsch (German)</option>
+            <option value="pt">Português (Portuguese)</option>
+            <option value="it">Italiano (Italian)</option>
+            <option value="ru">Русский (Russian)</option>
+            <option value="ar">العربية (Arabic)</option>
+            <option value="hi">हिन्दी (Hindi)</option>
+            <option value="bn">বাংলা (Bengali)</option>
+            <option value="ur">اردو (Urdu)</option>
+            <option value="tr">Türkçe (Turkish)</option>
+            <option value="vi">Tiếng Việt (Vietnamese)</option>
+            <option value="id">Bahasa Indonesia (Indonesian)</option>
+            <option value="fa">فارسی (Persian)</option>
+            <option value="sw">Kiswahili (Swahili)</option>
+        </select>
+    </div>
+
     <div class="container">
         <header>
-            <h1 style="font-size: 2.5rem; margin-bottom: 10px;">Learn Spanish with Isaiah</h1>
-            <div class="price-badge">$20 USD / Hour</div>
+            <h1 class="main-title">
+                <span data-i18n="en">Advanced English for Science & Biotech</span>
+                <span data-i18n="es">Inglés Avanzado para Ciencia y Biotecnología</span>
+                <span data-i18n="ko">과학 및 바이오테크 고급 영어</span>
+                <span data-i18n="ja">科学・バイオテクノロジー向け上級英語</span>
+                <span data-i18n="zh">科学与生物技术高级英语</span>
+                <span data-i18n="id">Bahasa Inggris Tingkat Lanjut untuk Sains & Bioteknologi</span>
+                <span data-i18n="fa">زبان انگلیسی پیشرفته برای علوم و بیوتکنولوژی</span>
+                <span data-i18n="sw">Kiingereza cha Juu kwa Sayansi na Bioteknolojia</span>
+                </h1>
         </header>
 
         <section class="video-card">
-            <a href="https://youtu.be/uYRqxMHSPPA" target="_blank" style="text-decoration: none; display: block; position: relative; line-height: 0;">
-                <img src="tutoring.jpg" alt="Learn Spanish with Isaiah - Tutoring Introduction" style="width: 100%; border-radius: 8px; display: block;">
-                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(75, 54, 33, 0.85); width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
-                    <div style="width: 0; height: 0; border-top: 15px solid transparent; border-bottom: 15px solid transparent; border-left: 25px solid #FAF9F6; margin-left: 5px;"></div>
+            <a href="https://youtu.be/uYRqxMHSPPA" target="_blank" class="video-link">
+                <img src="tutoring.jpg" alt="Introduction Video" class="video-thumbnail">
+                <div class="play-button-overlay">
+                    <div class="play-triangle"></div>
                 </div>
             </a>
-            <p style="font-size: 0.9rem; color: #666; margin-top: 12px; font-style: italic;">Watch my brief introduction</p>
-        </section>
-
-        <section style="margin-bottom: 40px;">
-            <p style="font-size: 1.15rem; color: #444;">
-                Former high school Spanish and ESL teacher with 5 years of experience, BS in biology, Fulbright scholar, 120 hour TESOL certificate.
+            <p class="video-caption">
+                <span data-i18n="en">Watch my brief introduction</span>
+                <span data-i18n="es">Vea mi breve presentación</span>
+                <span data-i18n="ko">소개 영상 시청하기</span>
+                <span data-i18n="ja">紹介動画を見る</span>
             </p>
         </section>
 
-        <section style="background-color: #EAE7E1; padding: 25px; border-radius: 12px; margin-bottom: 40px;">
-            <h2 style="font-family: 'Playfair Display', serif; margin-top: 0; color: var(--accent);">Current Availability</h2>
-            <p style="margin-bottom: 0; font-size: 1.1rem;">
-                <strong>Mon – Fri:</strong> 10:00am – 7:00pm<br>
-                <span style="font-size: 0.9rem; color: #666;">(GMT-6 / CST)</span>
+        <section class="pitch-container">
+            <p class="pitch-lead">
+                <span data-i18n="en">"I bridge the gap between scientific expertise and flawless global communication."</span>
+                <span data-i18n="es">"Reduzco la brecha entre la experiencia científica y una comunicación global impecable."</span>
+            </p>
+            <p class="pitch-body">
+                <span data-i18n="en">Former high school Spanish and ESL teacher with 5 years of experience, BS in biology, Fulbright scholar, 120 hour TESOL certificate.</span>
+                <span data-i18n="es">Exprofesor de escuela secundaria (Español/ESL) con 5 años de experiencia, Licenciatura en Biología, Becario Fulbright y certificación TESOL de 120 horas.</span>
             </p>
         </section>
 
-        <div class="calendly-inline-widget" data-url="https://calendly.com/ijberry97/30min" style="min-width:320px;height:630px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <section class="bid-card">
+            <h2 class="terminal-title">
+                <span data-i18n="en">Propose a Session</span>
+                <span data-i18n="es">Proponer una Sesión</span>
+                <span data-i18n="ko">수업 제안하기</span>
+                <span data-i18n="ja">セッションの提案</span>
+                <span data-i18n="id">Ajukan Penawaran Sesi</span>
+                <span data-i18n="fa">پیشنهاد یک جلسه</span>
+                <span data-i18n="sw">Pendekeza Kipindi</span>
+            </h2>
+            <p class="terminal-subtitle">
+                <span data-i18n="en">Name your target hourly rate and preferred timeslot. I will accept, decline, or counter within 2 hours.</span>
+                <span data-i18n="es">Proponga su tarifa por hora y horario deseado. Aceptaré, rechazaré o responderé con una contraoferta en un lapso de 2 horas.</span>
+            </p>
 
-        <a href="https://wa.me/16155549569" class="btn btn-primary">Message on WhatsApp</a>
+            <form id="negotiationForm" onsubmit="handleProposal(event)">
+                <div class="form-group">
+                    <label>
+                        <span data-i18n="en">Your Name</span>
+                        <span data-i18n="es">Su Nombre</span>
+                    </label>
+                    <input type="text" id="clientName" required placeholder="Dr. Sofia Rodriguez">
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <span data-i18n="en">Proposed Hourly Rate (USD)</span>
+                        <span data-i18n="es">Tarifa Propuesta por Hora (USD)</span>
+                    </label>
+                    <input type="number" id="proposedRate" min="15" required placeholder="e.g. 45">
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <span data-i18n="en">Preferred Date & Time</span>
+                        <span data-i18n="es">Fecha y Horario Deseado</span>
+                    </label>
+                    <input type="text" id="proposedTime" required placeholder="e.g. Thursday at 4:00 PM CST">
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <span data-i18n="en">Session Focus / Project Details</span>
+                        <span data-i18n="es">Objetivo de la Sesión / Detalles del Proyecto</span>
+                    </label>
+                    <textarea id="projectDetails" rows="3" required placeholder="e.g. Reviewing a biochemistry paper introduction / Preparación para entrevista técnica"></textarea>
+                </div>
+
+                <button type="submit" class="btn-bid">
+                    <span data-i18n="en">Submit Proposal via WhatsApp</span>
+                    <span data-i18n="es">Enviar Propuesta por WhatsApp</span>
+                </button>
+            </form>
+        </section>
+
+        <a href="https://wa.me/16155549569" class="btn btn-primary">
+            <span data-i18n="en">Message on WhatsApp</span>
+            <span data-i18n="es">Enviar Mensaje por WhatsApp</span>
+        </a>
         
         <div id="about">
-            <h2>My Teaching Style</h2>
-            <p>I think everyone has the potential to learn a language; it's my job to help draw it out. My style focuses on learning grammar and vocabulary in context, so that you feel comfortable using the language in real-world situations.</p>
-            <p>Consistency is key, and I'll make sure the lessons are engaging and interesting, so you stay motivated to reach your goals.</p>
-            <a href="#" style="font-size: 0.9rem; color: #999; text-decoration: none;">↑ Back to top</a>
+            <h2>
+                <span data-i18n="en">My Teaching Style</span>
+                <span data-i18n="es">Mi Estilo de Enseñanza</span>
+            </h2>
+            <p>
+                <span data-i18n="en">I think everyone has the potential to learn a language; it's my job to help draw it out. My style focuses on learning grammar and vocabulary in context, so that you feel comfortable using the language in real-world situations.</span>
+                <span data-i18n="es">Creo que todos tienen el potencial de dominar un idioma; mi trabajo es ayudar a desarrollarlo. Mi estilo se centra en el aprendizaje de la gramática y el vocabulario en contexto, para que se sienta cómodo usando el idioma en situaciones del mundo real.</span>
+            </p>
+            <p>
+                <span data-i18n="en">Consistency is key, and I'll make sure the lessons are engaging and interesting, so you stay motivated to reach your goals.</span>
+                <span data-i18n="es">La consistencia es clave, y me aseguraré de que las lecciones sean interesantes y dinámicas para mantener la motivación hacia sus objetivos.</span>
+            </p>
+            <a href="#" class="back-to-top">↑ Back to top / Volver arriba</a>
         </div>
     </div>
 
     <script>
-        // Auto-refresh: checks GitHub for updates every 2 hours
-        setInterval(async () => {
-            try {
-                const response = await fetch(window.location.href, { method: 'HEAD', cache: 'no-cache' });
-                const etag = response.headers.get('ETag');
-                const localEtag = localStorage.getItem('site-etag');
-                if (localEtag && etag && localEtag !== etag) location.reload();
-                localStorage.setItem('site-etag', etag);
-            } catch (e) { console.log("Check skipped."); }
-        }, 7200000);
+    const placeholders = {
+        en: { name: "Dr. Sofia Rodriguez", time: "e.g. Thursday at 4:00 PM CST", focus: "e.g. Reviewing a biochemistry paper" },
+        es: { name: "Dr. Sofia Rodríguez", time: "ej. Jueves a las 4:00 PM CST", focus: "ej. Revisión de artículo de bioquímica" },
+        ko: { name: "홍길동 박사", time: "예: 목요일 오후 4시 CST", focus: "예: 생화학 논문 검토" },
+        ja: { name: "山田 太郎 博士", time: "例: 木曜日 午後4時 CST", focus: "例: 生化学論文のレビュー" },
+        ur: { name: "ڈاکٹر صوفیہ", time: "مثال: جمعرات شام 4 بجے", focus: "مثال: بائیو کیمسٹری پیپر کا جائزہ" },
+        id: { name: "Dr. Budi Santoso", time: "contoh: Kamis jam 16:00 CST", focus: "contoh: Meninjau makalah biokimia" },
+        fa: { name: "دکتر مریم رضایی", time: "مثال: پنجشنبه ساعت ۴:۰۰ عصر", focus: "مثال: بررسی مقاله بیوشیمی" },
+        sw: { name: "Daktari Juma Ali", time: "m.f. Alhamisi saa kumi jioni", focus: "m.f. Kupitia karatasi ya biokemia" }
+    };
+
+    function switchLanguage(lang) {
+        document.body.setAttribute('lang', lang);
+        localStorage.setItem('preferred-lang', lang);
+        
+        if (placeholders[lang]) {
+            document.getElementById('clientName').placeholder = placeholders[lang].name;
+            document.getElementById('proposedTime').placeholder = placeholders[lang].time;
+            document.getElementById('projectDetails').placeholder = placeholders[lang].focus;
+        }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        const savedLang = localStorage.getItem('preferred-lang') || 'en';
+        document.body.setAttribute('lang', savedLang);
+        document.querySelector('.lang-select').value = savedLang;
+        switchLanguage(savedLang);
+    });
+
+    function handleProposal(event) {
+        event.preventDefault();
+        const name = document.getElementById('clientName').value;
+        const rate = document.getElementById('proposedRate').value;
+        const time = document.getElementById('proposedTime').value;
+        const details = document.getElementById('projectDetails').value;
+        
+        const message = `Hello Isaiah, I'd like to submit a session proposal.%0A%0A` +
+                        `*Name:* ${encodeURIComponent(name)}%0A` +
+                        `*Proposed Rate:* $${encodeURIComponent(rate)} USD/hr%0A` +
+                        `*Requested Time:* ${encodeURIComponent(time)}%0A` +
+                        `*Focus:* ${encodeURIComponent(details)}`;
+        
+        window.open(`https://wa.me/16155549569?text=${message}`, '_blank');
+    }
+
+    // Auto-refresh engine mapping GitHub server state tags
+    setInterval(async () => {
+        try {
+            const response = await fetch(window.location.href, { method: 'HEAD', cache: 'no-cache' });
+            const etag = response.headers.get('ETag');
+            const localEtag = localStorage.getItem('site-etag');
+            if (localEtag && etag && localEtag !== etag) location.reload();
+            localStorage.setItem('site-etag', etag);
+        } catch (e) { console.log("State check bypassed."); }
+    }, 7200000);
     </script>
 </body>
 </html>
+
